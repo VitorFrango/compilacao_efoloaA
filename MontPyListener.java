@@ -7,45 +7,45 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface MontPyListener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link MontPyParser#error}.
+	 * Enter a parse tree produced by {@link MontPyParser#programa}.
 	 * @param ctx the parse tree
 	 */
-	void enterError(MontPyParser.ErrorContext ctx);
+	void enterPrograma(MontPyParser.ProgramaContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link MontPyParser#error}.
+	 * Exit a parse tree produced by {@link MontPyParser#programa}.
 	 * @param ctx the parse tree
 	 */
-	void exitError(MontPyParser.ErrorContext ctx);
+	void exitPrograma(MontPyParser.ProgramaContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MontPyParser#program}.
+	 * Enter a parse tree produced by {@link MontPyParser#stat}.
 	 * @param ctx the parse tree
 	 */
-	void enterProgram(MontPyParser.ProgramContext ctx);
+	void enterStat(MontPyParser.StatContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link MontPyParser#program}.
+	 * Exit a parse tree produced by {@link MontPyParser#stat}.
 	 * @param ctx the parse tree
 	 */
-	void exitProgram(MontPyParser.ProgramContext ctx);
+	void exitStat(MontPyParser.StatContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MontPyParser#type}.
+	 * Enter a parse tree produced by {@link MontPyParser#declaration}.
 	 * @param ctx the parse tree
 	 */
-	void enterType(MontPyParser.TypeContext ctx);
+	void enterDeclaration(MontPyParser.DeclarationContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link MontPyParser#type}.
+	 * Exit a parse tree produced by {@link MontPyParser#declaration}.
 	 * @param ctx the parse tree
 	 */
-	void exitType(MontPyParser.TypeContext ctx);
+	void exitDeclaration(MontPyParser.DeclarationContext ctx);
 	/**
-	 * Enter a parse tree produced by {@link MontPyParser#list_type}.
+	 * Enter a parse tree produced by {@link MontPyParser#command}.
 	 * @param ctx the parse tree
 	 */
-	void enterList_type(MontPyParser.List_typeContext ctx);
+	void enterCommand(MontPyParser.CommandContext ctx);
 	/**
-	 * Exit a parse tree produced by {@link MontPyParser#list_type}.
+	 * Exit a parse tree produced by {@link MontPyParser#command}.
 	 * @param ctx the parse tree
 	 */
-	void exitList_type(MontPyParser.List_typeContext ctx);
+	void exitCommand(MontPyParser.CommandContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link MontPyParser#expression}.
 	 * @param ctx the parse tree
@@ -56,144 +56,4 @@ public interface MontPyListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitExpression(MontPyParser.ExpressionContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#literal}.
-	 * @param ctx the parse tree
-	 */
-	void enterLiteral(MontPyParser.LiteralContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#literal}.
-	 * @param ctx the parse tree
-	 */
-	void exitLiteral(MontPyParser.LiteralContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#list_function_call}.
-	 * @param ctx the parse tree
-	 */
-	void enterList_function_call(MontPyParser.List_function_callContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#list_function_call}.
-	 * @param ctx the parse tree
-	 */
-	void exitList_function_call(MontPyParser.List_function_callContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#variable_declaration}.
-	 * @param ctx the parse tree
-	 */
-	void enterVariable_declaration(MontPyParser.Variable_declarationContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#variable_declaration}.
-	 * @param ctx the parse tree
-	 */
-	void exitVariable_declaration(MontPyParser.Variable_declarationContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#function_declaration}.
-	 * @param ctx the parse tree
-	 */
-	void enterFunction_declaration(MontPyParser.Function_declarationContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#function_declaration}.
-	 * @param ctx the parse tree
-	 */
-	void exitFunction_declaration(MontPyParser.Function_declarationContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#params}.
-	 * @param ctx the parse tree
-	 */
-	void enterParams(MontPyParser.ParamsContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#params}.
-	 * @param ctx the parse tree
-	 */
-	void exitParams(MontPyParser.ParamsContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#param}.
-	 * @param ctx the parse tree
-	 */
-	void enterParam(MontPyParser.ParamContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#param}.
-	 * @param ctx the parse tree
-	 */
-	void exitParam(MontPyParser.ParamContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#statement_block}.
-	 * @param ctx the parse tree
-	 */
-	void enterStatement_block(MontPyParser.Statement_blockContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#statement_block}.
-	 * @param ctx the parse tree
-	 */
-	void exitStatement_block(MontPyParser.Statement_blockContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#statement}.
-	 * @param ctx the parse tree
-	 */
-	void enterStatement(MontPyParser.StatementContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#statement}.
-	 * @param ctx the parse tree
-	 */
-	void exitStatement(MontPyParser.StatementContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#assignment}.
-	 * @param ctx the parse tree
-	 */
-	void enterAssignment(MontPyParser.AssignmentContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#assignment}.
-	 * @param ctx the parse tree
-	 */
-	void exitAssignment(MontPyParser.AssignmentContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#if_statement}.
-	 * @param ctx the parse tree
-	 */
-	void enterIf_statement(MontPyParser.If_statementContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#if_statement}.
-	 * @param ctx the parse tree
-	 */
-	void exitIf_statement(MontPyParser.If_statementContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#for_statement}.
-	 * @param ctx the parse tree
-	 */
-	void enterFor_statement(MontPyParser.For_statementContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#for_statement}.
-	 * @param ctx the parse tree
-	 */
-	void exitFor_statement(MontPyParser.For_statementContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#range_expression}.
-	 * @param ctx the parse tree
-	 */
-	void enterRange_expression(MontPyParser.Range_expressionContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#range_expression}.
-	 * @param ctx the parse tree
-	 */
-	void exitRange_expression(MontPyParser.Range_expressionContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#while_statement}.
-	 * @param ctx the parse tree
-	 */
-	void enterWhile_statement(MontPyParser.While_statementContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#while_statement}.
-	 * @param ctx the parse tree
-	 */
-	void exitWhile_statement(MontPyParser.While_statementContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#function_call}.
-	 * @param ctx the parse tree
-	 */
-	void enterFunction_call(MontPyParser.Function_callContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#function_call}.
-	 * @param ctx the parse tree
-	 */
-	void exitFunction_call(MontPyParser.Function_callContext ctx);
 }

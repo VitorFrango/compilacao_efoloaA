@@ -1,2 +1,2 @@
-# Código Python que deverá falhar
-resultado = x if x > 10 else y
+int x = 3.5  # ERRO: não é possível atribuir um float diretamente a uma variável do tipo int
+float y = "texto"  # ERRO: tentativa de atribuir uma string a uma variável do tipo float
