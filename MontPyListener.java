@@ -7,6 +7,16 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface MontPyListener extends ParseTreeListener {
 	/**
+	 * Enter a parse tree produced by {@link MontPyParser#error}.
+	 * @param ctx the parse tree
+	 */
+	void enterError(MontPyParser.ErrorContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MontPyParser#error}.
+	 * @param ctx the parse tree
+	 */
+	void exitError(MontPyParser.ErrorContext ctx);
+	/**
 	 * Enter a parse tree produced by {@link MontPyParser#program}.
 	 * @param ctx the parse tree
 	 */

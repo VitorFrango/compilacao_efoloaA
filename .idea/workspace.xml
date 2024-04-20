@@ -4,7 +4,38 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="" />
+    <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="testes">
+      <change afterPath="$PROJECT_DIR$/teste_erro1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_funcao.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPy.g4" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPy.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$AssignmentContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$AssignmentContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$For_statementContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$For_statementContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$Function_callContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$Function_callContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$Function_declarationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$Function_declarationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$If_statementContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$If_statementContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$List_function_callContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$List_function_callContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$List_typeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$List_typeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$LiteralContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$LiteralContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ParamContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ParamContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ParamsContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ParamsContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ProgramContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ProgramContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$Range_expressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$Range_expressionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$StatementContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$StatementContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$Statement_blockContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$Statement_blockContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$TypeContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$TypeContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$Variable_declarationContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$Variable_declarationContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$While_statementContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$While_statementContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste_invalido.txt" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,10 +49,16 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
   <component name="ProjectId" id="2fM2voZptexR7CrSws7mBTBR53F" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -30,6 +67,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "/Users/vitorfrango/Library/CloudStorage/OneDrive-UniversidadeAberta/3 Ano/Compilacao/EFolioA24/Final",
@@ -54,8 +92,17 @@
       <workItem from="1713596860858" duration="1607000" />
       <workItem from="1713598581837" duration="22000" />
       <workItem from="1713598612808" duration="2540000" />
-      <workItem from="1713602871724" duration="2124000" />
+      <workItem from="1713602871724" duration="4822000" />
     </task>
+    <task id="LOCAL-00001" summary="testes">
+      <option name="closed" value="true" />
+      <created>1713605578586</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1713605578586</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -63,5 +110,9 @@
   </component>
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.tokens" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="testes" />
+    <option name="LAST_COMMIT_MESSAGE" value="testes" />
   </component>
 </project>

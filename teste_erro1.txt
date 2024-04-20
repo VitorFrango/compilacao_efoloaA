@@ -1,0 +1,2 @@
+# Código Python que deverá falhar
+resultado = x if x > 10 else y
