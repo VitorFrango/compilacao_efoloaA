@@ -5,60 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="testes">
-      <change afterPath="$PROJECT_DIR$/MontPyLexerTest$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MontPyParser$CommandContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MontPyParser$DeclarationContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MontPyParser$ProgramaContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MontPyParser$StatContext.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPy.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPy.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyBaseVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyLexer.interp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyLexer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyLexer.tokens" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/outputDir/MontPyVisitor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste_erro_operador.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste_erro_sintaxe.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/teste_listas.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyLexerTest$ThrowingErrorListener.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPy.g4" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPy.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPy.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.tokens" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.interp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.tokens" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MontPyLexerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MontPyLexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$AssignmentContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$ErrorContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$For_statementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$Function_callContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$Function_declarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$If_statementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$List_function_callContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$List_typeContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$LiteralContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$ParamContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$ParamsContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$ProgramContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$Range_expressionContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$StatementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$Statement_blockContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$TypeContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$Variable_declarationContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser$While_statementContext.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_erro1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_funcao.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste_erro_sintaxe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_sintaxe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,28 +38,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "jdk.selected.JAVA_MODULE": "openjdk-21",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/Users/vitorfrango/Library/CloudStorage/OneDrive-UniversidadeAberta/3 Ano/Compilacao/EFolioA24/Final",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "project.scopes",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/vitorfrango/Library/CloudStorage/OneDrive-UniversidadeAberta/3 Ano/Compilacao/EFolioA24/Final&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -121,7 +72,8 @@
       <workItem from="1713598581837" duration="22000" />
       <workItem from="1713598612808" duration="2540000" />
       <workItem from="1713602871724" duration="12097000" />
-      <workItem from="1713624030102" duration="3169000" />
+      <workItem from="1713624030102" duration="3313000" />
+      <workItem from="1713627363350" duration="3208000" />
     </task>
     <task id="LOCAL-00001" summary="testes">
       <option name="closed" value="true" />
@@ -147,7 +99,23 @@
       <option name="project" value="LOCAL" />
       <updated>1713608037856</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="testes">
+      <option name="closed" value="true" />
+      <created>1713627210994</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713627210994</updated>
+    </task>
+    <task id="LOCAL-00005" summary="testes">
+      <option name="closed" value="true" />
+      <created>1713627234262</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713627234262</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
