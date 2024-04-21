@@ -7,16 +7,6 @@ import org.antlr.v4.runtime.tree.ParseTreeListener;
  */
 public interface MontPyListener extends ParseTreeListener {
 	/**
-	 * Enter a parse tree produced by {@link MontPyParser#program}.
-	 * @param ctx the parse tree
-	 */
-	void enterProgram(MontPyParser.ProgramContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#program}.
-	 * @param ctx the parse tree
-	 */
-	void exitProgram(MontPyParser.ProgramContext ctx);
-	/**
 	 * Enter a parse tree produced by {@link MontPyParser#type}.
 	 * @param ctx the parse tree
 	 */
@@ -26,16 +16,6 @@ public interface MontPyListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitType(MontPyParser.TypeContext ctx);
-	/**
-	 * Enter a parse tree produced by {@link MontPyParser#list_type}.
-	 * @param ctx the parse tree
-	 */
-	void enterList_type(MontPyParser.List_typeContext ctx);
-	/**
-	 * Exit a parse tree produced by {@link MontPyParser#list_type}.
-	 * @param ctx the parse tree
-	 */
-	void exitList_type(MontPyParser.List_typeContext ctx);
 	/**
 	 * Enter a parse tree produced by {@link MontPyParser#expression}.
 	 * @param ctx the parse tree
@@ -186,4 +166,24 @@ public interface MontPyListener extends ParseTreeListener {
 	 * @param ctx the parse tree
 	 */
 	void exitFunction_call(MontPyParser.Function_callContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link MontPyParser#list_type}.
+	 * @param ctx the parse tree
+	 */
+	void enterList_type(MontPyParser.List_typeContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MontPyParser#list_type}.
+	 * @param ctx the parse tree
+	 */
+	void exitList_type(MontPyParser.List_typeContext ctx);
+	/**
+	 * Enter a parse tree produced by {@link MontPyParser#program}.
+	 * @param ctx the parse tree
+	 */
+	void enterProgram(MontPyParser.ProgramContext ctx);
+	/**
+	 * Exit a parse tree produced by {@link MontPyParser#program}.
+	 * @param ctx the parse tree
+	 */
+	void exitProgram(MontPyParser.ProgramContext ctx);
 }

@@ -4,14 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="testa_erro_string">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="testa_ero_string">
       <change beforePath="$PROJECT_DIR$/MontPy.g4" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.g4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MontPyLexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_erro_funcoes.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_funcoes.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_erro_operador.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_operador.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_erro_sintaxe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_sintaxe.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/teste_sintaxe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_sintaxe.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.tokens" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +63,7 @@
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
     "run.code.analysis.last.selected.profile": "pProject Default",
-    "settings.editor.selected.configurable": "com.jetbrains.python.black.configuration.BlackFormatterConfigurable",
+    "settings.editor.selected.configurable": "reference.settingsdialog.IDE.editor.colors",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -84,7 +81,7 @@
       <workItem from="1713602871724" duration="12097000" />
       <workItem from="1713624030102" duration="3313000" />
       <workItem from="1713627363350" duration="8480000" />
-      <workItem from="1713637210224" duration="5404000" />
+      <workItem from="1713637210224" duration="5901000" />
     </task>
     <task id="LOCAL-00001" summary="testes">
       <option name="closed" value="true" />
@@ -158,7 +155,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713690827722</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="testa_ero_string">
+      <option name="closed" value="true" />
+      <created>1713693806195</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1713693806195</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,7 +176,8 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="testes" />
     <MESSAGE value="testa_erro_string" />
-    <option name="LAST_COMMIT_MESSAGE" value="testa_erro_string" />
+    <MESSAGE value="testa_ero_string" />
+    <option name="LAST_COMMIT_MESSAGE" value="testa_ero_string" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
