@@ -46,6 +46,7 @@ TAB=45
 COMMENT=46
 WS=47
 ID=48
+ERROR=49
 'def'=5
 'float'=6
 'int'=7

@@ -5,10 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="284bdfa3-e506-4c74-8af5-14e5949dd611" name="Changes" comment="testes">
-      <change afterPath="$PROJECT_DIR$/MontPyLexerTest$ThrowingErrorListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$AssignmentContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$For_statementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$Function_callContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$Function_declarationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$If_statementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$List_function_callContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$List_typeContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$LiteralContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$ParamContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$ParamsContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$ProgramContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$Range_expressionContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$StatementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$Statement_blockContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$TypeContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$Variable_declarationContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MontPyParser$While_statementContext.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_conversoes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_erro_funcoes.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_operador.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_sintaxe.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/teste_variaveis.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPy.g4" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.g4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPy.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPy.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/MontPy.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyBaseListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyBaseListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.interp" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.interp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexer.tokens" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexer.tokens" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexerTest$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyLexerTest$ThrowingErrorListener.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/MontPyLexerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexerTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/MontPyLexerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyLexerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$CommandContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$DeclarationContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser$ExpressionContext.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$ProgramaContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser$StatContext.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser.class" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MontPyParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/MontPyParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/teste_erro_operador.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_operador.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/teste_erro_sintaxe.txt" beforeDir="false" afterPath="$PROJECT_DIR$/teste_erro_sintaxe.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -26,6 +68,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
@@ -56,7 +101,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;project.scopes&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.black.configuration.BlackFormatterConfigurable&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -73,7 +118,8 @@
       <workItem from="1713598612808" duration="2540000" />
       <workItem from="1713602871724" duration="12097000" />
       <workItem from="1713624030102" duration="3313000" />
-      <workItem from="1713627363350" duration="3208000" />
+      <workItem from="1713627363350" duration="8480000" />
+      <workItem from="1713637210224" duration="2339000" />
     </task>
     <task id="LOCAL-00001" summary="testes">
       <option name="closed" value="true" />
@@ -115,7 +161,15 @@
       <option name="project" value="LOCAL" />
       <updated>1713627234262</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="testes">
+      <option name="closed" value="true" />
+      <created>1713630742890</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1713630742890</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -128,5 +182,9 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="testes" />
     <option name="LAST_COMMIT_MESSAGE" value="testes" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
