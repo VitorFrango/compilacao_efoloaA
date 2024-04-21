@@ -1,11 +1,5 @@
 
-if (a > 3 {
+
+if (a > 3 ; # erro de sintaxe, não é possível usar ; para separar as condições
     print(a)
-}
 
-
-string s = "Olá, mundo!"  # ERRO: tipo 'string' não é suportado como variável, apenas literal em funções
-x = input(“Introduza um valor”)  # ERRO: input deve especificar o tipo como parte da chamada
-
-for i = 0; i < 10; i++:  # ERRO: sintaxe tipo C/C++/Java, não é suportada em MONTy Python
-    print(i)

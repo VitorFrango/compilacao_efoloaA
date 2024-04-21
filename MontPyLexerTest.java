@@ -35,8 +35,8 @@ public class MontPyLexerTest {
                 }
                 else if (token.getType() == MontPyLexer.DIGIT) {
                     System.out.printf("Número encontrado: %s\n", tokenText);
+                }
 
-                };
             } while (token.getType() != Token.EOF);
         } catch (Exception e) {
             System.err.println("Erro ao analisar o arquivo: " + e.getMessage());

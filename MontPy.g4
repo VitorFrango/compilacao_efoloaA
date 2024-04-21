@@ -52,6 +52,7 @@ COLON: ':';
 DOT: '.';
 TAB: '\t';
 
+
 // Ignorar comentários
 COMMENT: '#' ~[\r\n]* -> skip;
 
@@ -135,5 +136,4 @@ while_statement : WHILE expression statement_block;
 
 // Define como funções são chamadas na linguagem, especificando o nome da função e os argumentos passados.
 function_call : ID OPEN_PAREN (expression (COMMA expression)*)? CLOSE_PAREN;
-
 
