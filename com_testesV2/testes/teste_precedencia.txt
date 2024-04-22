@@ -1,0 +1,22 @@
+# Teste de precedência de operadores
+int a = 5 + 3 * 2       # Deve tratar como 5 + (3 * 2)
+float b = 10 / 2 - 1    # Deve tratar como (10 / 2) - 1
+float c = -3.5 + 2.1    # Deve considerar o sinal em -3.5
+
+# Teste de comparações e lógica
+int d = 20
+int e = 30
+bool resultado1 = d < e and e > 15  # Deve ser true e true, resultado final true
+bool resultado2 = d == 10 or e == 30 # Deve ser false ou true, resultado final true
+
+# Teste de precedência em expressões complexas
+float x = 3 + 4 * 2 / (1 - 5) ^ 2 ^ 3 # Testa a precedência e associatividade de ** e /
+
+# Teste de operadores lógicos e comparação
+bool valid = x > 5 and x < 20 # Combinações de operadores lógicos e comparação
+
+# Teste de strings e entradas
+string msg = "Olá, mundo!"
+print("Mensagem: ", msg)
+int num = 55
+print("Número introduzido: ", num)
